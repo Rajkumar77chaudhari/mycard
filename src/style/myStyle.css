@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.App-container {
+  background-color: coral;
+  height: 100%;
+}
+
+.Card-container {
+  background-color: red;
+  display: inline-block;
+  height: 355px;
+  width: 250px;
+  margin: 100px 128px;
+  border-radius: 10px;
+}
+
+img {
+  height: 220px;
+  width: inherit;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  padding: 5px;
+  font-weight: 700;
+  color: black;
+}
